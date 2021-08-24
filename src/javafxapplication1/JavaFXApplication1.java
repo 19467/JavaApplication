@@ -35,9 +35,9 @@ public class JavaFXApplication1 extends Application {
         Button btnPlayAgain = new Button();
         Button btnClose = new Button();
         TextField textField = new TextField();
-        Image image = new Image(new FileInputStream("C:\\Users\\tweiderman\\Documents\\GitHub\\JavaApplication\\41VcjPSfjwL.png"));
-        Image imageUp = new Image(new FileInputStream("C:\\Users\\tweiderman\\Documents\\GitHub\\JavaApplication\\up-arrow.png"));
-        Image imageDown = new Image(new FileInputStream("C:\\Users\\tweiderman\\Documents\\GitHub\\JavaApplication\\down-arrow.png"));
+        Image image = new Image(new FileInputStream("images\\41VcjPSfjwL.png"));
+        Image imageUp = new Image(new FileInputStream("images\\up-arrow.png"));
+        Image imageDown = new Image(new FileInputStream("images\\down-arrow.png"));
         ImageView imageView = new ImageView(image);
         ImageView imageViewUp = new ImageView(imageUp);
         ImageView imageViewDown = new ImageView(imageDown);
